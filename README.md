@@ -1,1 +1,1 @@
-# zine
+# prozine
