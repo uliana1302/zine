@@ -193,19 +193,19 @@ body.module {
       }
     }
   }
-}
 
-.fm {
-  top: 25.8vw;
-  background-color: var(--yellow);
+  .fm {
+    top: 25.8vw;
+    background-color: var(--yellow);
 
-  .nazv_t {
-    width: 80vw;
-  }
+    .nazv_t {
+      width: 80vw;
+    }
 
-  .n_t {
-    .but {
-      color: var(--yellow);
+    .n_t {
+      .but {
+        color: var(--yellow);
+      }
     }
   }
 }
