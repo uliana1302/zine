@@ -1,6 +1,318 @@
 body.landing {
   width: 100vw;
   height: 361vw;
-  background: no-repeat top/100% url('./images/главная.png');
   overflow-x: hidden;
+
+  .body {
+    padding: 2.3vw 2.6vw 7vw 2.6vw;
+
+    // Меню
+    .menu {
+      .links {
+        width: 29.8vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 5vw;
+
+        a {
+          font: 0.9vw;
+        }
+      }
+
+      .but_t {
+        width: 11.9vw;
+        height: 2.2vw;
+        background-color: var(--blue);
+        border-radius: 2vw;
+
+        p {
+          color: var(--white);
+          width: 14vw;
+          font-size: 0.8vw;
+          padding: 0.8vw 2vw 0.8vw 2vw;
+        }
+      }
+    }
+
+    .chisla {
+      margin-top: -2vw;
+      margin-left: 31.2vw;
+      width: 25.9vw;
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        font-size: 0.6vw;
+        color: var(--black);
+      }
+
+      .l2 {
+        margin-left: -0.8vw;
+      }
+
+      .l3 {
+        margin-left: 0.4vw;
+      }
+    }
+
+    .img1 {
+      position: absolute;
+      width: 18.4vw;
+      left: 19.5vw;
+      top: 28.5vw;
+      z-index: 100;
+    }
+
+    .img2 {
+      position: absolute;
+      width: 22vw;
+      left: 41vw;
+      top: 8.5vw;
+    }
+
+    .img3 {
+      position: absolute;
+      width: 18.4vw;
+      left: 78vw;
+      top: 45vw;
+      z-index: 100;
+    }
+
+    .disc {
+      position: absolute;
+      top: 36.5vw;
+      left: 63.5vw;
+      font-size: 1.1vw;
+      width: 15.2vw;
+    }
+
+    .log {
+      position: absolute;
+      top: 16vw;
+      left: 10vw;
+      width: 79vw;
+    }
+
+    .blue {
+      width: 100vw;
+      height: 81.5vw;
+      background-color: var(--blue);
+      position: absolute;
+      top: 59vw;
+      left: -1vw;
+    }
+
+    .num1 {
+      position: relative;
+      font-size: 4.5vw;
+      top: 68.2vw;
+      left: 5.5vw;
+      color: var(--white);
+    }
+
+    .raz1 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 40.8vw;
+      line-height: 95%;
+      top: 63.5vw;
+      left: 15.3vw;
+      color: var(--white);
+    }
+
+    .descr {
+      position: relative;
+      font-size: 1.1vw;
+      line-height: 135%;
+      width: 31.8vw;
+      top: 65.5vw;
+      left: 15.6vw;
+      color: var(--white);
+    }
+
+    .nakl1 {
+      position: relative;
+      width: 29.8vw;
+      top: 49vw;
+      left: 58.7vw;
+    }
+
+    .info1 {
+      position: relative;
+      width: 1.6vw;
+      top: 87vw;
+      left: 16vw;
+    }
+
+    .opis {
+      position: relative;
+      font-size: 0.9vw;
+      line-height: 135%;
+      width: 22.9vw;
+      top: 85.5vw;
+      left: 19vw;
+      color: var(--white);
+    }
+
+    .scr1 {
+      position: relative;
+      top: 55.8vw;
+      height: 33vw;
+      width: 100vw;
+
+      img {
+        height: 32vw;
+        width: 132.8vw;
+      }
+    }
+
+    .num2 {
+      position: relative;
+      font-size: 4.5vw;
+      top: 66.6vw;
+      left: 4.5vw;
+      color: var(--black);
+    }
+
+    .raz2 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 60vw;
+      line-height: 95%;
+      top: 62vw;
+      left: 15.4vw;
+      color: var(--black);
+    }
+
+    .descr1 {
+      position: relative;
+      font-size: 1.1vw;
+      line-height: 135%;
+      width: 31.8vw;
+      top: 64vw;
+      left: 15.6vw;
+      color: var(--black);
+    }
+
+    .yellow {
+      width: 100vw;
+      height: 60vw;
+      background-color: var(--yellow);
+      position: relative;
+      top: 73.5vw;
+      left: -3vw;
+    }
+
+    .num3 {
+      position: relative;
+      font-size: 4.5vw;
+      top: 22vw;
+      left: 4.5vw;
+      color: var(--white);
+    }
+
+    .raz3 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 60vw;
+      line-height: 95%;
+      top: 17.5vw;
+      left: 15.4vw;
+      color: var(--white);
+    }
+
+    .soder {
+      width: 150vw;
+      position: relative;
+      top: 23vw;
+      left: -1vw;
+    }
+
+    .but_m {
+      position: relative;
+      top: 39.5vw;
+      left: 15.5vw;
+      width: 11.9vw;
+      height: 2.2vw;
+      background-color: var(--black);
+      border-radius: 2vw;
+
+      p {
+        color: var(--white);
+        width: 14vw;
+        font-size: 0.8vw;
+        padding: 0.8vw 2vw 0.8vw 2vw;
+      }
+    }
+
+    .num4 {
+      position: relative;
+      font-size: 4.5vw;
+      top: 41.3vw;
+      left: 4.5vw;
+      color: var(--black);
+    }
+
+    .raz4 {
+      position: relative;
+      font-size: 4.5vw;
+      width: 43vw;
+      line-height: 95%;
+      top: 36.8vw;
+      left: 15.4vw;
+      color: var(--black);
+    }
+
+    .descr2 {
+      position: relative;
+      font-size: 1.1vw;
+      line-height: 135%;
+      width: 31.8vw;
+      top: 38.5vw;
+      left: 15.6vw;
+      color: var(--black);
+    }
+
+    .img7 {
+      position: relative;
+      width: 29.6vw;
+      top: 26.7vw;
+      left: 61vw;
+    }
+
+    .info2 {
+      position: relative;
+      width: 1.6vw;
+      top: 25.5vw;
+      left: -14.5vw;
+    }
+
+    .opis2 {
+      position: relative;
+      font-size: 0.9vw;
+      line-height: 135%;
+      width: 22.9vw;
+      top: 24.1vw;
+      left: 18.9vw;
+      color: var(--black);
+    }
+
+  }
+
+  .fm {
+    top: 24vw;
+    position: relative;
+    background-color: var(--green);
+
+    .nazv_t {
+      width: 80vw;
+    }
+
+    .n_t {
+      .but {
+        color: var(--green);
+      }
+    }
+  }
 }
