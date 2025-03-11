@@ -1,6 +1,135 @@
 body.tools {
   width: 100vw;
   height: 209vw;
-  background: no-repeat top/100% url('./images/инструменты.png');
   overflow-x: hidden;
+
+  .body {
+    padding: 2.3vw 2.6vw 7vw 2.6vw;
+
+    // Баннер
+    .banner {
+      width: 94vw;
+      height: 32vw;
+      position: relative;
+      top: 1.7vw;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+
+      .rec {
+        width: 100%;
+        height: 90%;
+        bottom: 0;
+        background-color: var(--yellow);
+        padding: 3vw 4vw;
+
+        p {
+          color: var(--white);
+        }
+
+        .header {
+          font-size: 3.6vw;
+          width: 40vw;
+        }
+
+        .descr {
+          font-size: 1.1vw;
+          width: 17vw;
+          margin-top: 13vw;
+        }
+
+        .age {
+          font-size: 1.1vw;
+          margin-top: -22.2vw;
+          margin-left: 84vw;
+        }
+      }
+    }
+
+    // Карточки
+    .sod {
+      font-size: 2vw;
+      position: relative;
+      top: 6.5vw;
+    }
+
+    .top {
+      width: 100%;
+      top: 9vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 6.4vw;
+
+      .t {
+        width: 30.5vw;
+        height: 21vw;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1.1vw;
+        margin-bottom: 1.1vw;
+
+        .cov {
+          width: 100%;
+          height: 10.2vw;
+        }
+
+        .text_op {
+          width: 100%;
+          height: 10.8vw;
+          background-color: var(--light_grey);
+          display: flex;
+          flex-direction: column;
+          padding: 2.8vw 0 0 2.2vw;
+
+          .naz {
+            font-size: 1.6vw;
+            margin-bottom: 1vw;
+          }
+
+          .tags {
+            width: 25vw;
+            display: flex;
+
+            .tag {
+              height: 2.6vw;
+              border-radius: 1vw;
+              background-color: var(--white);
+              padding: 0.8vw 2vw 0.8vw 2vw;
+              font-size: 1vw;
+              margin-right: 0.7vw;
+            }
+
+            .coll {
+              width: 19.5vw;
+            }
+
+            .l {
+              width: 17vw;
+            }
+
+            .m {
+              width: 18vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.fm {
+  top: 1.3vw;
+  background-color: var(--yellow);
+
+  .nazv_t {
+    width: 80vw;
+  }
+
+  .n_t {
+    .but {
+      color: var(--yellow);
+    }
+  }
 }
