@@ -8,30 +8,120 @@ body {
 }
 
 body {
-  font-family: 'PT Root UI', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Onest', Helvetica, sans-serif;
+  font-weight: 200;
 }
 
-.images {
-  display: flex;
+a {
+  text-decoration: none;
+  color: var(--black);
+}
 
-  * {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
+// Меню
+.menu {
+  width: 94vw;
+  height: 2.2vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .links {
+    width: 20.2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 16vw;
+
+    a {
+      font: 0.9vw;
+    }
   }
 
-  .image {
-    &#bgPNG {
-      background-image: url('images/image.png');
+  .search {
+    width: 22.7vw;
+    height: 2.2vw;
+    border-radius: 1vw;
+    background-color: var(--light_grey);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    img {
+      width: 0.8vw;
+      height: 0.8vw;
+      margin-left: 1vw;
+      margin-right: 0.7vw;
     }
 
-    &#bgJPG {
-      background-image: url('images/image.jpg');
+    p {
+      font-size: 0.8vw;
+      color: var(--grey);
+      margin-top: 0.2vw;
+    }
+  }
+}
+
+// Футер
+.footer {
+  width: 100vw;
+  height: 50.8vw;
+  position: relative;
+  top: 15vw;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  .n_t {
+    width: 68.8vw;
+    height: 21.5vw;
+    margin-top: 14.2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .next {
+      font-size: 1.1vw;
+      color: var(--white);
     }
 
-    &#bgSVG {
-      background-image: url('images/image.svg');
+    .nazv_t {
+      font-size: 7vw;
+      color: var(--white);
+      text-align: center;
+      margin-top: 1.2vw;
+      line-height: 80%;
+    }
+
+    .but {
+      height: 3.1vw;
+      border-radius: 2vw;
+      background-color: var(--white);
+      color: var(--blue);
+      padding: 1vw 3vw 1vw 3vw;
+      font-size: 1.1vw;
+      margin-top: 3vw;
+    }
+  }
+
+  .dop_t {
+    width: 93.5vw;
+    height: 2.5vw;
+    margin-top: 11.4vw;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-size: 0.9vw;
+      color: var(--white);
+    }
+
+    .p_2 {
+      width: 18vw;
+      line-height: 130%;
+      margin-left: -38vw;
     }
   }
 }

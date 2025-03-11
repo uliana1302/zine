@@ -75,7 +75,7 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
-    // Landing page
+    // Home page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
@@ -84,13 +84,49 @@ module.exports = {
       chunks: ['index']
     }),
 
-    // Internal pages
+    // About page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html',
-      chunks: ['page']
+      template: './src/pages/about.html',
+      filename: './pages/about.html',
+      chunks: ['index']
+    }),
+
+    // Landing page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/landing.html',
+      filename: './pages/landing.html',
+      chunks: ['index']
+    }),
+
+    // Module page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/module.html',
+      filename: './pages/module.html',
+      chunks: ['index']
+    }),
+
+    // Tools page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/tools.html',
+      filename: './pages/tools.html',
+      chunks: ['index']
+    }),
+
+    // Topic page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/pages/topic.html',
+      filename: './pages/topic.html',
+      chunks: ['index']
     }),
 
     // Partials
