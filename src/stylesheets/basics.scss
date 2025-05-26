@@ -26,41 +26,55 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  .links {
-    width: 20.2vw;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 16vw;
-
-    a {
-      font: 0.9vw;
+  .logos {
+    &:hover {
+      transform: rotate(10deg);
+      transition: 0.2s;
     }
   }
 
-  .search {
-    width: 22.7vw;
-    height: 2.2vw;
-    border-radius: 1vw;
-    background-color: var(--light_grey);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+}
 
-    img {
-      width: 0.8vw;
-      height: 0.8vw;
-      margin-left: 1vw;
-      margin-right: 0.7vw;
-    }
+.links {
+  width: 20.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 16vw;
 
-    p {
-      font-size: 0.8vw;
-      color: var(--grey);
-      margin-top: 0.2vw;
+  a {
+    font: 0.9vw;
+
+    &:hover {
+      color: var(--hover_blue);
+      transition: 0.2s;
     }
   }
 }
+
+.search {
+  width: 22.7vw;
+  height: 2.2vw;
+  border-radius: 1vw;
+  background-color: var(--light_grey);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 0.8vw;
+    height: 0.8vw;
+    margin-left: 1vw;
+    margin-right: 0.7vw;
+  }
+
+  p {
+    font-size: 0.8vw;
+    color: var(--grey);
+    margin-top: 0.2vw;
+  }
+}
+
 
 // Футер
 .footer {
@@ -103,6 +117,11 @@ a {
       padding: 1vw 3vw 1vw 3vw;
       font-size: 1.1vw;
       margin-top: 3vw;
+
+      &:hover {
+        opacity: 0.85;
+        transition: 0.2s;
+      }
     }
   }
 

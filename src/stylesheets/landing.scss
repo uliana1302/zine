@@ -17,6 +17,20 @@ body.landing {
 
         a {
           font: 0.9vw;
+          color: var(--blue);
+
+          &:hover {
+            color: var(--hover_blue);
+            transition: 0.2s;
+          }
+        }
+
+      }
+
+      .logos {
+        &:hover {
+          transform: rotate(10deg);
+          transition: 0.2s;
         }
       }
 
@@ -25,6 +39,11 @@ body.landing {
         height: 2.2vw;
         background-color: var(--blue);
         border-radius: 2vw;
+
+        &:hover {
+          background-color: var(--hover_blue);
+          transition: 0.2s;
+        }
 
         p {
           color: var(--white);
@@ -42,9 +61,10 @@ body.landing {
       display: flex;
       justify-content: space-between;
 
+
       p {
         font-size: 0.6vw;
-        color: var(--black);
+        color: var(--blue);
       }
 
       .l2 {
@@ -58,39 +78,51 @@ body.landing {
 
     .img1 {
       position: absolute;
-      width: 18.4vw;
-      left: 19.5vw;
-      top: 28.5vw;
+      width: 18vw;
+      left: 20.5vw;
+      top: 33.5vw;
       z-index: 100;
+      transform: rotate(-12deg);
     }
 
     .img2 {
       position: absolute;
-      width: 22vw;
-      left: 41vw;
+      width: 18vw;
+      left: 42.6vw;
       top: 8.5vw;
+      transform: rotate(10deg);
+    }
+
+    .img4 {
+      position: absolute;
+      width: 18vw;
+      left: -4vw;
+      top: 12.5vw;
+      transform: rotate(30.5deg);
     }
 
     .img3 {
       position: absolute;
-      width: 18.4vw;
-      left: 78vw;
-      top: 45vw;
+      width: 18vw;
+      left: 74.5vw;
+      top: 43.5vw;
       z-index: 100;
+      transform: rotate(12.5deg);
     }
 
     .disc {
       position: absolute;
       top: 36.5vw;
-      left: 63.5vw;
+      left: 64.5vw;
       font-size: 1.1vw;
       width: 15.2vw;
+      color: var(--blue);
     }
 
     .log {
       position: absolute;
       top: 16vw;
-      left: 10vw;
+      left: 11vw;
       width: 79vw;
     }
 
@@ -142,7 +174,7 @@ body.landing {
       position: relative;
       width: 1.6vw;
       top: 87vw;
-      left: 16vw;
+      left: 15vw;
     }
 
     .opis {
@@ -172,7 +204,7 @@ body.landing {
       font-size: 4.5vw;
       top: 66.6vw;
       left: 4.5vw;
-      color: var(--black);
+      color: var(--blue);
     }
 
     #raz2 {
@@ -182,7 +214,7 @@ body.landing {
       line-height: 95%;
       top: 62vw;
       left: 15.4vw;
-      color: var(--black);
+      color: var(--blue);
     }
 
     .descr1 {
@@ -192,7 +224,7 @@ body.landing {
       width: 31.8vw;
       top: 64vw;
       left: 15.6vw;
-      color: var(--black);
+      color: var(--blue);
     }
 
     #yellow {
@@ -235,8 +267,13 @@ body.landing {
       left: 15.5vw;
       width: 11.9vw;
       height: 2.2vw;
-      background-color: var(--black);
+      background-color: var(--blue);
       border-radius: 2vw;
+
+      &:hover {
+        background-color: var(--hover_blue);
+        transition: 0.2s;
+      }
 
       p {
         color: var(--white);
@@ -251,7 +288,7 @@ body.landing {
       font-size: 4.5vw;
       top: 41.3vw;
       left: 4.5vw;
-      color: var(--black);
+      color: var(--blue);
     }
 
     #raz4 {
@@ -261,7 +298,7 @@ body.landing {
       line-height: 95%;
       top: 36.8vw;
       left: 15.4vw;
-      color: var(--black);
+      color: var(--blue);
     }
 
     .descr2 {
@@ -271,7 +308,7 @@ body.landing {
       width: 31.8vw;
       top: 38.5vw;
       left: 15.6vw;
-      color: var(--black);
+      color: var(--blue);
     }
 
     .img7 {
@@ -295,7 +332,7 @@ body.landing {
       width: 22.9vw;
       top: 24.1vw;
       left: 18.9vw;
-      color: var(--black);
+      color: var(--blue);
     }
 
   }
@@ -312,6 +349,11 @@ body.landing {
     .n_t {
       .but {
         color: var(--green);
+
+        &:hover {
+          opacity: 0.85;
+          transition: 0.2s;
+        }
       }
     }
   }

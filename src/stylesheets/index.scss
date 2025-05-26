@@ -1,6 +1,6 @@
 body.index {
   width: 100vw;
-  height: 193vw;
+  height: 170ю5vw;
   overflow-x: hidden;
 
   .body {
@@ -20,7 +20,7 @@ body.index {
         width: 100%;
         height: 90%;
         bottom: 0;
-        background-color: var(--blue);
+        background-color: var(--pink);
         padding: 3vw 4vw;
 
         p {
@@ -39,25 +39,42 @@ body.index {
         }
 
         .age {
-          font-size: 1.1vw;
-          margin-top: -22.2vw;
-          margin-left: 85vw;
+          opacity: 0;
         }
       }
 
-      .oval {
-        margin-left: -56vw;
-        margin-bottom: -11vw;
+      .red {
+        width: 25vw;
+        height: 33.5vw;
+        margin-left: -118vw;
+        margin-bottom: -7vw;
+        transform: rotate(-10deg);
       }
 
-      .hand {
-        margin-left: -81vw;
-        margin-bottom: -9.2vw;
+      .yellow {
+        width: 25vw;
+        height: 33.5vw;
+        margin-left: 28vw;
+        margin-bottom: -13.5vw;
+        transform: rotate(79deg);
+        z-index: 100;
       }
 
-      .head {
-        margin-left: -1vw;
-        margin-bottom: -1vw;
+      .pink {
+        width: 25vw;
+        height: 33.5vw;
+        margin-left: 8vw;
+        margin-bottom: 0;
+        transform: rotate(-81deg);
+      }
+
+      .green {
+        width: 25vw;
+        height: 33.5vw;
+        margin-left: -22vw;
+        margin-bottom: -18vw;
+        transform: rotate(-20deg);
+        z-index: 100;
       }
     }
 
@@ -136,9 +153,25 @@ body.index {
         margin-right: 1.1vw;
         margin-bottom: 1.1vw;
 
+        // &:hover {
+        //   color: var(--yellow);
+        //   transition: 0.2s;
+        // }
+
         .cov {
           width: 100%;
           height: 10.2vw;
+        }
+
+        .cov1 {
+          width: 100%;
+          height: 10.2vw;
+          background-image: url("./images/index/c_1.png");
+
+          &:hover {
+            background-image: url("./images/index/c_1_h_s.png");
+            transition: 0.2s;
+          }
         }
 
         .text_op {

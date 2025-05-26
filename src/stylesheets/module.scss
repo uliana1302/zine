@@ -111,6 +111,17 @@ body.module {
           height: 10.2vw;
         }
 
+        .cov1 {
+          width: 100%;
+          height: 10.2vw;
+          background-image: url("./images/module/c_1.png");
+
+          &:hover {
+            background-image: url("./images/module/c1_h.png");
+            transition: 0.2s;
+          }
+        }
+
         .text_op {
           width: 100%;
           height: 10.8vw;
