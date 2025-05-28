@@ -9,3 +9,5 @@
 @import 'stylesheets/module.scss';
 @import 'stylesheets/tools.scss';
 @import 'stylesheets/topic.scss';
+
+@import 'stylesheets/adaptive.scss';

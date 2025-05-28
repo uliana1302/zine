@@ -34,22 +34,24 @@ body.landing {
         }
       }
 
-      .but_t {
-        width: 11.9vw;
-        height: 2.2vw;
-        background-color: var(--blue);
-        border-radius: 2vw;
+      a {
+        #but_t {
+          width: 11.9vw;
+          height: 2.2vw;
+          background-color: var(--blue);
+          border-radius: 2vw;
 
-        &:hover {
-          background-color: var(--hover_blue);
-          transition: 0.2s;
-        }
+          &:hover {
+            background-color: var(--hover_blue);
+            transition: 0.2s;
+          }
 
-        p {
-          color: var(--white);
-          width: 14vw;
-          font-size: 0.8vw;
-          padding: 0.8vw 2vw 0.8vw 2vw;
+          p {
+            color: var(--white);
+            width: 14vw;
+            font-size: 0.8vw;
+            padding: 0.8vw 2vw 0.8vw 2vw;
+          }
         }
       }
     }
@@ -127,7 +129,7 @@ body.landing {
     }
 
     #blue {
-      width: 100vw;
+      width: 105vw;
       height: 81.5vw;
       background-color: var(--blue);
       position: absolute;
@@ -228,12 +230,20 @@ body.landing {
     }
 
     #yellow {
-      width: 100vw;
+      width: 105vw;
       height: 60vw;
       background-color: var(--yellow);
       position: relative;
       top: 73.5vw;
       left: -3vw;
+    }
+
+    .head1,
+    .head2,
+    .op1,
+    .op2,
+    .soder {
+      display: none;
     }
 
     .num3 {
@@ -254,7 +264,7 @@ body.landing {
       color: var(--white);
     }
 
-    .soder {
+    .soder1 {
       width: 150vw;
       position: relative;
       top: 23vw;

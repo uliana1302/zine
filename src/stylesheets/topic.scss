@@ -167,22 +167,24 @@ body.topic {
       }
     }
 
-    .but_t {
-      width: 12.4vw;
-      height: 2.2vw;
-      border-radius: 2vw;
-      background-color: var(--white);
-      margin-top: 1.5vw;
+    a {
+      .but_tp {
+        width: 12.4vw;
+        height: 2.2vw;
+        border-radius: 2vw;
+        background-color: var(--white);
+        margin-top: 1.5vw;
 
-      &:hover {
-        opacity: 0.85;
-        transition: 0.2s;
-      }
+        &:hover {
+          opacity: 0.85;
+          transition: 0.2s;
+        }
 
-      p {
-        font-size: 0.8vw;
-        color: var(--yellow);
-        padding: 0.5vw 2vw 0.5vw 2vw;
+        p {
+          font-size: 0.8vw;
+          color: var(--yellow);
+          padding: 0.5vw 2vw 0.5vw 2vw;
+        }
       }
     }
   }

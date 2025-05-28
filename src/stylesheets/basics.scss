@@ -27,6 +27,9 @@ a {
   align-items: center;
 
   .logos {
+    width: 6.7vw;
+    height: 1.8vw;
+
     &:hover {
       transform: rotate(10deg);
       transition: 0.2s;
@@ -73,6 +76,40 @@ a {
     color: var(--grey);
     margin-top: 0.2vw;
   }
+}
+
+#t_menu {
+  display: none;
+}
+
+.info_t {
+  width: 1.3vw;
+  height: 1.3vw;
+}
+
+.download {
+  width: 2.6vw;
+  height: 2.6vw;
+}
+
+.but_share {
+  width: 2.2vw;
+  height: 2.2vw;
+  background: url(./images/module/share.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &:hover {
+    background: url(./images/module/share_h.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+  }
+}
+
+.time {
+  width: 1.4vw;
+  height: 1.4vw;
 }
 
 
@@ -142,5 +179,34 @@ a {
       line-height: 130%;
       margin-left: -38vw;
     }
+  }
+}
+
+.menu_o {
+  position: absolute;
+  width: 35.1vw;
+  height: 33.3vw;
+  background-color: var(--white);
+  top: 3vw;
+  right: 3vw;
+
+  .close {
+    width: 2.6vw;
+    height: 2.2vw;
+    background: url(./images/menu_close.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1vw;
+    margin-left: 8vw;
+
+    &:hover {
+      background: url(./images/menu_close_hover.svg);
+      transition: 0.2s;
+    }
+  }
+
+  p {
+    font-size: 1.3vw;
+    margin-top: 1vw;
   }
 }
