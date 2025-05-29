@@ -1,16 +1,16 @@
 {
-  "name": "static-site-boilerplate",
+  "name": "prozine",
   "version": "1.0.0",
-  "author": "Zakhar Day",
+  "author": "uliana1302",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https:///github.com/ZakharDay/static-site-boilerplate"
+    "url": "git+https:///github.com/uliana1302/zine"
   },
   "bugs": {
-    "url": "https://github.com/ZakharDay/static-site-boilerplate/issues"
+    "url": "https://github.com/uliana1302/zine/issues"
   },
-  "homepage": "https://github.com/ZakharDay/static-site-boilerplate#readme",
+  "homepage": "https://github.com/uliana1302/zine#readme",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "watch": "webpack --config webpack.dev.js",
