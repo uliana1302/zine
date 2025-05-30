@@ -10,6 +10,7 @@
   <meta name="title" content="Что такое зин и зачем он нужен бизнесу" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Веб-учебник по развитию личного бренда через зины">
+  <script src="../javascript/menu.js"></script>
 
   <analytics></analytics>
 </head>
@@ -25,11 +26,27 @@
         <a href="tools.html">Инструменты</a>
         <a href="about.html">О проекте</a>
       </div>
+
       <div class="search">
-        <img src="../images/search.svg">
-        <p>Поиск по учебнику</p>
+        <button onclick="searchClick()" class="searchbtn">
+          <img src="../images/search.svg">
+          <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Поиск по учебнику"></button>
+        <!-- <list></list> -->
       </div>
-      <div id="t_menu"></div>
+
+      <div class="dropdown">
+        <button onclick="menuClick()" class="dropbtn">
+          <div id="t_menu"></div>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <div class="c_links">
+            <a href="..">Учебник</a>
+            <a href="tools.html">Инструменты</a>
+            <a href="about.html">О проекте</a>
+          </div>
+          <a class="tg" href="https://t.me/pro_zine">Telegram</a>
+        </div>
+      </div>
     </div>
 
     <p class="chank">Учебник&nbsp&nbsp&nbsp•&nbsp&nbsp&nbspЧасть
@@ -95,7 +112,8 @@
       и визуальным восприятием, не&nbspограничиваясь рамками коммерческого дизайна.</p>
 
     <div class="pic_t2">
-      <img src="../images/topic/img4.png">
+      <img class="img4_1" src="../images/topic/img4_1.png">
+      <img class="img4" src="../images/topic/img4.png">
       <p class="tp tex3">Выпуски журнала “Ray Gun”<br>1992-2000</p>
     </div>
 

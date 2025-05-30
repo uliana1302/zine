@@ -9,7 +9,9 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    page: './src/page.jsx'
+    page: './src/page.jsx',
+    menu: './src/javascript/menu.js',
+    search: './src/javascript/search.js',
   },
   output: {
     filename: '[name].js',
@@ -81,7 +83,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index']
+      chunks: ['index', 'menu', 'search']
     }),
 
     // About page
@@ -90,7 +92,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/about.html',
       filename: './pages/about.html',
-      chunks: ['index']
+      chunks: ['index', 'menu', 'search']
     }),
 
     // Landing page
@@ -108,7 +110,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/module.html',
       filename: './pages/module.html',
-      chunks: ['index']
+      chunks: ['index', 'menu', 'search']
     }),
 
     // Tools page
@@ -117,7 +119,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/tools.html',
       filename: './pages/tools.html',
-      chunks: ['index']
+      chunks: ['index', 'menu', 'search']
     }),
 
     // Topic page
@@ -126,7 +128,7 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/pages/topic.html',
       filename: './pages/topic.html',
-      chunks: ['index']
+      chunks: ['index', 'menu', 'search']
     }),
 
     // Partials
@@ -137,7 +139,17 @@ module.exports = {
         template_filename: '*',
         priority: 'replace'
       }
-    ])
+    ]),
+
+    // Menu
+    new HtmlWebpackPartialsPlugin([
+      {
+        path: path.join(__dirname, './src/list.html'),
+        location: 'list',
+        template_filename: '*',
+        priority: 'replace'
+      }
+    ]),
   ],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]

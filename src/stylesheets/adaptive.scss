@@ -4,6 +4,7 @@
     .body {
       padding: 3vw 4vw 7vw 3vw;
 
+
       .menu {
         .links {
           display: none;
@@ -12,11 +13,11 @@
         a {
           #but_t {
             height: 3.2vw;
-            width: 20vw;
+            width: 19vw;
             border-radius: 2vw;
 
             p {
-              font-size: 1.4vw;
+              font-size: 1.3vw;
               width: 19vw;
               padding: 0.9vw 2vw 0.8vw 3vw;
             }
@@ -97,6 +98,24 @@
         top: 106.8vw;
       }
 
+      .scr_p {
+        top: 107vw;
+
+        .scr_p1 {
+          font-size: 1.3vw;
+        }
+
+        .scr_p2 {
+          font-size: 1.3vw;
+          margin-left: 8.5vw;
+        }
+
+        .scr_p3 {
+          font-size: 1.3vw;
+          margin-left: 31.5vw;
+        }
+      }
+
       .num2 {
         top: 117.6vw;
       }
@@ -113,64 +132,98 @@
 
       #yellow {
         top: 124.5vw;
+        height: 72vw;
       }
 
       .num3 {
-        top: 73vw;
+        top: 63vw;
       }
 
       .raz3 {
-        top: 68.5vw;
+        top: 58.5vw;
       }
 
-      .soder1r {
-        top: 74vw;
+      .soder {
+        margin-top: 65vw;
+        height: 42vw;
+        width: 34vw;
+      }
+
+      .head1 {
+        top: -38vw;
+      }
+
+      .op1 {
+        top: -39.8vw;
+      }
+
+      .mod1 {
+        font-size: 1.3vw;
+        top: -37.8vw;
+      }
+
+      .mod2 {
+        font-size: 1.3vw;
+      }
+
+      .but1,
+      .but2 {
+        height: 3.2vw;
+        width: 20vw;
+        border-radius: 2vw;
+
+        p {
+          font-size: 1.3vw;
+          width: 20vw;
+          padding: 0.9vw 2vw 0.8vw 3vw;
+        }
       }
 
       .but_m {
         height: 3.2vw;
-        width: 20vw;
-        top: 91.5vw;
+        width: 19vw;
+        top: -6.5vw;
+        left: 15.3vw;
         border-radius: 2vw;
 
         p {
-          font-size: 1.4vw;
+          font-size: 1.3vw;
           width: 19vw;
           padding: 0.9vw 2vw 0.8vw 3vw;
         }
       }
 
       .num4 {
-        top: 92.3vw;
+        top: -6.3vw;
       }
 
       #raz4 {
-        top: 87.8vw;
+        top: -10.8vw;
       }
 
       .descr2 {
         font-size: 1.3vw;
-        top: 89.5vw;
+        top: -8.5vw;
       }
 
       .img7 {
-        top: 77.7vw;
+        top: -22.3vw;
       }
 
       .info2 {
-        top: 77.1vw;
+        top: -24.1vw;
       }
 
       .opis2 {
         font-size: 1.3vw;
-        top: 75.1vw;
+        top: -26.1vw;
         width: 35vw;
       }
 
     }
 
     .fm {
-      top: 75vw;
+      top: -20vw;
     }
   }
 }
@@ -251,7 +304,9 @@
       #blue {
         top: 212vw;
         height: 252.7vw;
-        left: 0.1vw;
+        left: 0;
+        width: 100vw;
+        //left: 0.1vw;
       }
 
       .num1 {
@@ -260,7 +315,7 @@
       }
 
       .raz1 {
-        top: 230vw;
+        top: 224vw;
         left: 5.6vw;
         font-size: 7.5vw;
         width: 90vw;
@@ -268,13 +323,13 @@
 
       .descr {
         font-size: 3.3vw;
-        top: 234vw;
+        top: 231vw;
         left: 6vw;
         width: 80vw;
       }
 
       .nakl1 {
-        top: 229vw;
+        top: 227vw;
         left: 9.5vw;
         height: 80vw;
         width: 70vw;
@@ -284,7 +339,7 @@
         top: 340.4vw;
         width: 6vw;
         height: 6vw;
-        left: 6vw;
+        left: 5vw;
       }
 
       .opis {
@@ -295,21 +350,40 @@
 
       .scr1 {
         top: 262.8vw;
-        left: 6vw;
+        width: 81vw;
+        height: 60vw;
+        left: 5vw;
+        background: url(./images/landing/scr2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
 
-        img {
-          height: 70vw;
-          width: 290vw;
+      }
+
+      .scr_p {
+        top: 270vw;
+        left: 2vw;
+
+        .scr_p1 {
+          font-size: 2.7vw;
+          margin-left: 3vw;
+        }
+
+        .scr_p2 {
+          font-size: 2.7vw;
+        }
+
+        .scr_p3 {
+          display: none;
         }
       }
 
       .num2 {
-        top: 331.6vw;
+        top: 290.6vw;
         font-size: 3.3vw;
       }
 
       #raz2 {
-        top: 345vw;
+        top: 300vw;
         left: 4.5vw;
         font-size: 7.5vw;
         width: 90vw;
@@ -317,41 +391,52 @@
 
       .descr1 {
         font-size: 3.3vw;
-        top: 350vw;
+        top: 307vw;
         left: 5vw;
         width: 80vw;
       }
 
       #yellow {
-        top: 375vw;
-        left: -5vw;
+        top: 330vw;
+        left: 0;
+        left: -5vw; //
         height: 220vw;
+        width: 100vw;
       }
 
       .num3 {
-        top: 170vw;
+        top: 128vw;
         font-size: 3.3vw;
       }
 
       .raz3 {
-        top: 182vw;
+        top: 142vw;
         font-size: 7.5vw;
         width: 90vw;
         left: 3.7vw;
       }
 
+      .soder1 {
+        display: none;
+      }
+
       .soder {
-        top: 192vw;
-        left: 3vw;
+        display: block;
+        position: relative;
+        top: 140vw;
+        left: -10vw;
         height: 105vw;
         width: 85vw;
+        background: url(./images/landing/soderz.png);
+        background-size: contain;
+        background-repeat: no-repeat;
       }
 
       .head1 {
         position: absolute;
         color: var(--white);
         display: block;
-        top: 812vw;
+        top: 805vw;
         left: 8vw;
         font-size: 3.3vw;
       }
@@ -360,7 +445,7 @@
         position: absolute;
         color: var(--white);
         display: block;
-        top: 834vw;
+        top: 820vw;
         left: 8vw;
         font-size: 3.3vw;
       }
@@ -369,7 +454,7 @@
         position: absolute;
         color: var(--white);
         display: block;
-        top: 812vw;
+        top: 805vw;
         left: 35vw;
         font-size: 5vw;
         width: 60vw;
@@ -379,10 +464,17 @@
         position: absolute;
         color: var(--white);
         display: block;
-        top: 834vw;
+        top: 820vw;
         left: 35vw;
         font-size: 5vw;
         width: 60vw;
+      }
+
+      .mod1,
+      .mod2,
+      .but1,
+      .but2 {
+        display: none;
       }
 
       .but_m {
@@ -399,7 +491,7 @@
       }
 
       .num4 {
-        top: 285vw;
+        top: 220vw;
         font-size: 3.3vw;
       }
 
@@ -407,12 +499,12 @@
         font-size: 7.5vw;
         width: 90vw;
         left: 4.4vw;
-        top: 295vw;
+        top: 230vw;
       }
 
       .descr2 {
         font-size: 1.3vw;
-        top: 300.5vw;
+        top: 235.5vw;
         left: 4.8vw;
         font-size: 3.3vw;
         width: 80vw;
@@ -423,7 +515,7 @@
           height: 6vw;
           width: 32vw;
           border-radius: 3vw;
-          top: 307vw;
+          top: 242vw;
           left: 4.3vw;
 
           p {
@@ -435,14 +527,14 @@
       }
 
       .img7 {
-        top: 321.7vw;
+        top: 256.7vw;
         width: 83vw;
         height: 83vw;
         left: 4.4vw;
       }
 
       .info2 {
-        top: 353.4vw;
+        top: 275.4vw;
         width: 6vw;
         height: 6vw;
         left: 4.5vw;
@@ -450,14 +542,14 @@
 
       .opis2 {
         font-size: 2.7vw;
-        top: 348vw;
+        top: 270vw;
         left: 15.5vw;
         width: 70vw;
       }
     }
 
     .footer {
-      top: 360vw;
+      top: 290vw;
       height: 103.8vw;
 
       .n_t {
@@ -664,17 +756,19 @@
           top: 7.5vw;
           border-radius: 4vw;
 
-          img {
-            height: 3vw;
-            width: 3vw;
-            margin-left: 4vw;
-          }
+          .searchbtn {
+            img {
+              height: 3vw;
+              width: 3vw;
+              margin-left: 4vw;
+            }
 
-          p {
-            font-size: 3.3vw;
-            width: 40vw;
-            margin-left: 2vw;
-            margin-top: 0.5vw;
+            p {
+              font-size: 3.3vw;
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 0.5vw;
+            }
           }
         }
 
@@ -685,8 +779,7 @@
           height: 4.6vw;
           background: url(./images/t_menu.svg);
           background-repeat: no-repeat;
-          background-size: cover;
-
+          background-size: contain;
         }
       }
 
@@ -1044,17 +1137,19 @@
           top: 7.5vw;
           border-radius: 4vw;
 
-          img {
-            height: 3vw;
-            width: 3vw;
-            margin-left: 4vw;
-          }
+          .searchbtn {
+            img {
+              height: 3vw;
+              width: 3vw;
+              margin-left: 4vw;
+            }
 
-          p {
-            font-size: 3.3vw;
-            width: 40vw;
-            margin-left: 2vw;
-            margin-top: 0.5vw;
+            p {
+              font-size: 3.3vw;
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 0.5vw;
+            }
           }
         }
 
@@ -1065,11 +1160,12 @@
           height: 4.6vw;
           background: url(./images/t_menu.svg);
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: contain;
 
           &:hover {
             background: url(./images/t_menu_h.svg);
             background-repeat: no-repeat;
+            background-size: contain;
             transition: 0.2s;
           }
 
@@ -1374,17 +1470,19 @@
           top: 7.5vw;
           border-radius: 4vw;
 
-          img {
-            height: 3vw;
-            width: 3vw;
-            margin-left: 4vw;
-          }
+          .searchbtn {
+            img {
+              height: 3vw;
+              width: 3vw;
+              margin-left: 4vw;
+            }
 
-          p {
-            font-size: 3.3vw;
-            width: 40vw;
-            margin-left: 2vw;
-            margin-top: 0.5vw;
+            p {
+              font-size: 3.3vw;
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 0.5vw;
+            }
           }
         }
 
@@ -1395,11 +1493,12 @@
           height: 4.6vw;
           background: url(./images/t_menu.svg);
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: contain;
 
           &:hover {
             background: url(./images/t_menu_h.svg);
             background-repeat: no-repeat;
+            background-size: contain;
             transition: 0.2s;
           }
 
@@ -1514,8 +1613,16 @@
 
       .pic_t2 {
         margin-top: 7vw;
-        height: 58vw;
-        width: 160vw;
+        height: 42vw;
+        width: 90vw;
+
+        .img4 {
+          display: none;
+        }
+
+        .img4_1 {
+          display: block;
+        }
       }
 
       .tex3 {
@@ -1525,7 +1632,7 @@
       }
 
       .t4 {
-        margin-top: 8vw;
+        margin-top: 24vw;
         margin-bottom: 7vw;
       }
 
@@ -1732,16 +1839,18 @@
       width: 44.2vw;
       border-radius: 2vw;
 
-      img {
-        width: 1.2vw;
-        height: 1.2vw;
-        margin-left: 2vw;
-        margin-right: 0.9vw;
-      }
+      .searchbtn {
+        img {
+          width: 1.2vw;
+          height: 1.2vw;
+          margin-left: 2vw;
+          margin-right: 0.9vw;
+        }
 
-      p {
-        font-size: 1.4vw;
-        width: 19vw;
+        p {
+          font-size: 1.4vw;
+          width: 19vw;
+        }
       }
     }
 
@@ -1755,10 +1864,12 @@
       height: 2.2vw;
       background: url(./images/t_menu.svg);
       background-repeat: no-repeat;
+      background-size: contain;
 
       &:hover {
         background: url(./images/t_menu_h.svg);
         background-repeat: no-repeat;
+        background-size: contain;
         transition: 0.2s;
       }
     }
@@ -1807,17 +1918,19 @@
           top: 7.5vw;
           border-radius: 4vw;
 
-          img {
-            height: 3vw;
-            width: 3vw;
-            margin-left: 4vw;
-          }
+          .searchbtn {
+            img {
+              height: 3vw;
+              width: 3vw;
+              margin-left: 4vw;
+            }
 
-          p {
-            font-size: 3.3vw;
-            width: 40vw;
-            margin-left: 2vw;
-            margin-top: 0.5vw;
+            p {
+              font-size: 3.3vw;
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 0.5vw;
+            }
           }
         }
 
@@ -1828,11 +1941,12 @@
           height: 4.6vw;
           background: url(./images/t_menu.svg);
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: contain;
 
           &:hover {
             background: url(./images/t_menu_h.svg);
             background-repeat: no-repeat;
+            background-size: contain;
             transition: 0.2s;
           }
 
@@ -2092,17 +2206,19 @@
           top: 7.5vw;
           border-radius: 4vw;
 
-          img {
-            height: 3vw;
-            width: 3vw;
-            margin-left: 4vw;
-          }
+          .searchbtn {
+            img {
+              height: 3vw;
+              width: 3vw;
+              margin-left: 4vw;
+            }
 
-          p {
-            font-size: 3.3vw;
-            width: 40vw;
-            margin-left: 2vw;
-            margin-top: 0.5vw;
+            p {
+              font-size: 3.3vw;
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 0.5vw;
+            }
           }
         }
 
@@ -2113,11 +2229,12 @@
           height: 4.6vw;
           background: url(./images/t_menu.svg);
           background-repeat: no-repeat;
-          background-size: cover;
+          background-size: contain;
 
           &:hover {
             background: url(./images/t_menu_h.svg);
             background-repeat: no-repeat;
+            background-size: contain;
             transition: 0.2s;
           }
 

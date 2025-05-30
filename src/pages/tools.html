@@ -9,6 +9,7 @@
   <meta name="title" content="Дополнительные материалы" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Веб-учебник по развитию личного бренда через зины">
+  <script src="../javascript/menu.js"></script>
 
   <analytics></analytics>
 </head>
@@ -24,11 +25,27 @@
         <a href="tools.html">Инструменты</a>
         <a href="about.html">О проекте</a>
       </div>
+
       <div class="search">
-        <img src="../images/search.svg">
-        <p>Поиск по учебнику</p>
+        <button onclick="searchClick()" class="searchbtn">
+          <img src="../images/search.svg">
+          <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Поиск по учебнику"></button>
+        <!-- <list></list> -->
       </div>
-      <div id="t_menu"></div>
+
+      <div class="dropdown">
+        <button onclick="menuClick()" class="dropbtn">
+          <div id="t_menu"></div>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <div class="c_links">
+            <a href="..">Учебник</a>
+            <a href="tools.html">Инструменты</a>
+            <a href="about.html">О проекте</a>
+          </div>
+          <a class="tg" href="https://t.me/pro_zine">Telegram</a>
+        </div>
+      </div>
     </div>
 
     <!-- Баннер -->
@@ -50,7 +67,8 @@
           <p class="naz">1.&nbsp&nbspОдностраничный зин</p>
           <div class="tags">
             <div class="tag coll t1">1.3&nbsp&nbspКак зины помогают бренду</div>
-            <img class="download" src="../images/tools/load.svg">
+            <a href="../images/tools/c_1.png" download="инструкция.png"><img class="download"
+                src="../images/tools/load.svg"></a>
           </div>
         </div>
       </div>

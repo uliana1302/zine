@@ -112,9 +112,13 @@ body.topic {
       display: flex;
       flex-direction: column;
 
-      img {
+      .img4 {
         width: 100%;
         margin-bottom: 1.2vw;
+      }
+
+      .img4_1 {
+        display: none;
       }
     }
 
