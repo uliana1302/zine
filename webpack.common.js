@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackPartialsPlugin = require('html-webpack-partials-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 
 const webpack = require('webpack')
 const path = require('path')
@@ -72,6 +73,14 @@ module.exports = {
     ]
   },
   plugins: [
+
+    new CopyPlugin({
+      patterns: [
+        { from: 'src/images', to: 'images' },
+        { from: 'src/share', to: 'share' }
+      ]
+    }),
+
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'
