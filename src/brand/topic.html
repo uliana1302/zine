@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Веб-учебник по развитию личного бренда через зины">
   <script src="../javascript/menu.js"></script>
+  <script src="../javascript/search.js"></script>
 
   <analytics></analytics>
 </head>
@@ -20,18 +21,18 @@
   <div class="body">
     <!-- Меню -->
     <div class="menu">
-      <a href="landing.html"><img class="logos" src="../images/logo.svg"></a>
+      <a href="../index.html"><img class="logos" src="../images/logo.svg"></a>
       <div class="links">
-        <a href="../index.html">Учебник</a>
-        <a href="tools.html">Инструменты</a>
-        <a href="about.html">О проекте</a>
+        <a href="../tutorial.html">Учебник</a>
+        <a href="../tools.html">Инструменты</a>
+        <a href="../about.html">О проекте</a>
       </div>
 
       <div class="search">
         <button onclick="searchClick()" class="searchbtn">
           <img src="../images/search.svg">
           <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Поиск по учебнику"></button>
-        <!-- <list></list> -->
+        <list></list>
       </div>
 
       <div class="dropdown">
@@ -40,17 +41,19 @@
         </button>
         <div id="myDropdown" class="dropdown-content">
           <div class="c_links">
-            <a href="..">Учебник</a>
-            <a href="tools.html">Инструменты</a>
-            <a href="about.html">О проекте</a>
+            <a href=../tutorial.html>Учебник</a>
+            <a href="../tools.html">Инструменты</a>
+            <a href="../about.html">О проекте</a>
           </div>
           <a class="tg" href="https://t.me/pro_zine">Telegram</a>
         </div>
       </div>
     </div>
 
-    <p class="chank">Учебник&nbsp&nbsp&nbsp•&nbsp&nbsp&nbspЧасть
-      1&nbsp&nbsp&nbsp•&nbsp&nbsp&nbspВведение&nbsp&nbsp&nbsp•&nbsp&nbsp&nbspЧто такое зин и зачем он&nbspнужен бизнесу
+    <p class="chank"><a href="../tutorial.html">Учебник</a>&nbsp&nbsp&nbsp•&nbsp&nbsp&nbsp<a
+        href="../module.html">Введение</a>&nbsp&nbsp&nbsp•&nbsp&nbsp&nbspЧто такое
+      зин и зачем
+      он&nbspнужен бизнесу
     </p>
 
     <div class="cover_t">
@@ -176,14 +179,20 @@
       <p class="next">Следующий материал</p>
       <p class="nazv_t">Дополнительные материалы</p>
       <!-- <a href="module.html"> -->
-      <a href="tools.html">
+      <a href="../tools.html">
         <div class="but">Перейти на страницу</div>
       </a>
     </div>
     <div class="dop_t">
-      <p class="p_1">prozine '25</p>
-      <p class="p_2">Проект выполнен Воробьёвой Ульяной под кураторством Захара Дня</p>
-      <p class="p_3">Школа дизайна НИУ ВШЭ</p>
+      <a href="https://hsedesign.ru/project/7a5ba4bbc7f245e8ac860988d9019273" target="_blank">
+        <p class="p_1">prozine '25</p>
+      </a>
+      <p class="p_2">Проект выполнен <a href="https://t.me/uvvorobyova" target="_blank">Воробьёвой Ульяной</a> под
+        кураторством <a href="https://t.me/dayglobal" target="_blank">Захара
+          Дня</a></p>
+      <a href="https://design.hse.ru/" target="_blank">
+        <p class="p_3">Школа дизайна НИУ ВШЭ</p>
+      </a>
     </div>
   </div>
 
