@@ -1,5 +1,3 @@
-/******/ (() => { // webpackBootstrap
-var __webpack_exports__ = {};
 function searchClick() {
   document.getElementById("listAll").classList.toggle("show");
 }
@@ -44,5 +42,3 @@ function search() {
     }
   }
 }
-/******/ })()
-;
