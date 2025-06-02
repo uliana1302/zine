@@ -76,8 +76,7 @@ module.exports = {
 
     new CopyPlugin({
       patterns: [
-        { from: 'src/images', to: 'images' },
-        { from: 'src/share', to: 'share' }
+        { from: 'src/images', to: 'images' }
       ]
     }),
 
@@ -86,12 +85,21 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
-    // Home page
+    // Landing page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
       template: './src/index.html',
       filename: './index.html',
+      chunks: ['index', 'menu']
+    }),
+
+    // Tutorial page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/tutorial.html',
+      filename: './tutorial.html',
       chunks: ['index', 'menu', 'search']
     }),
 
@@ -99,26 +107,17 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/about.html',
-      filename: './pages/about.html',
+      template: './src/about.html',
+      filename: './about.html',
       chunks: ['index', 'menu', 'search']
-    }),
-
-    // Landing page
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/pages/landing.html',
-      filename: './pages/landing.html',
-      chunks: ['index']
     }),
 
     // Module page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/module.html',
-      filename: './pages/module.html',
+      template: './src/module.html',
+      filename: './module.html',
       chunks: ['index', 'menu', 'search']
     }),
 
@@ -126,8 +125,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/tools.html',
-      filename: './pages/tools.html',
+      template: './src/tools.html',
+      filename: './tools.html',
       chunks: ['index', 'menu', 'search']
     }),
 
@@ -135,8 +134,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
-      template: './src/pages/topic.html',
-      filename: './pages/topic.html',
+      template: './src/brand/topic.html',
+      filename: './brand/topic.html',
       chunks: ['index', 'menu', 'search']
     }),
 

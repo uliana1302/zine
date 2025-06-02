@@ -1,6 +1,6 @@
 // import React, { Component } from 'react'
 // import ReactDOM from 'react-dom'
-// import '../stylesheets/basics.scss'
+// import './stylesheets/basics.scss'
 
 // export default class ComponentExample extends Component {
 //   constructor(props) {
