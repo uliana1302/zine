@@ -1,0 +1,532 @@
+body.monetization {
+  width: 100vw;
+  height: 163.5vw;
+  overflow-x: hidden;
+
+  .body {
+    padding: 2.3vw 2.6vw 7vw 2.6vw;
+
+    // Баннер
+    .rec {
+      width: 94vw;
+      height: 28.9vw;
+      background: url(./images/index/c_5.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 4.8vw;
+      position: relative;
+    }
+
+    .chank {
+      font-size: 0.9vw;
+      position: relative;
+      top: -31vw;
+    }
+
+    // Текстовый блок
+    .text_1 {
+      top: 3vw;
+    }
+
+    .text_2 {
+      top: 14vw;
+    }
+
+    .text {
+      width: 87.8vw;
+      height: 8.7vw;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      .chap {
+        font-size: 2vw;
+        width: 9.5vw;
+      }
+
+      .name {
+        width: 30vw;
+        height: 9.5vw;
+        margin-left: -2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title {
+          font-size: 2vw;
+        }
+
+        .t_but {
+          width: 13vw;
+          height: 2.2vw;
+          display: flex;
+          align-items: center;
+
+          .but_m {
+            width: 10vw;
+            height: 2.2vw;
+            background-color: var(--blue);
+            border-radius: 1vw;
+            padding: 0.7vw 1.8vw 0.5vw 2vw;
+            margin-right: 0.7vw;
+
+            &:hover {
+              background-color: var(--hover_blue);
+              transition: 0.2s;
+            }
+
+            p {
+              width: 6.4vw;
+              font-size: 0.8vw;
+              color: var(--white);
+            }
+          }
+        }
+      }
+
+      .opis {
+        width: 32.6vw;
+        font-size: 1.1vw;
+        line-height: 120%;
+      }
+    }
+
+    // Карточки
+    .sod {
+      font-size: 2vw;
+      position: relative;
+      top: 14.5vw;
+    }
+
+    .top {
+      width: 100%;
+      top: 17vw;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .t {
+        width: 30.5vw;
+        height: 21vw;
+        display: flex;
+        flex-direction: column;
+        margin-right: 1.1vw;
+        margin-bottom: 1.1vw;
+
+        .cov {
+          width: 100%;
+          height: 10.2vw;
+          background: url("./images/module/5_1.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background: url("./images/module/5_1_h.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: 0.2s;
+          }
+        }
+
+        .cov1 {
+          width: 100%;
+          height: 10.2vw;
+          background: url("./images/module/5_2.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background: url("./images/module/5_2_h.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: 0.2s;
+          }
+        }
+
+        .cov2 {
+          width: 100%;
+          height: 10.2vw;
+          background: url("./images/module/c_3.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background: url("./images/module/c3_h.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            transition: 0.2s;
+          }
+        }
+
+        .text_op {
+          width: 100%;
+          height: 10.8vw;
+          background-color: var(--light_grey);
+          display: flex;
+          flex-direction: column;
+          padding: 2.8vw 0 0 2.2vw;
+
+          .naz {
+            font-size: 1.6vw;
+            margin-bottom: 1vw;
+          }
+
+          .tag {
+            height: 2.6vw;
+            border-radius: 1vw;
+            background-color: var(--white);
+            padding: 0.8vw 2vw 0.8vw 2vw;
+            font-size: 1vw;
+            margin-right: 0.7vw;
+          }
+
+          .coll {
+            width: 15.7vw;
+          }
+        }
+      }
+    }
+  }
+
+  // Полезные материалы
+  .useful {
+    width: 88.9vw;
+    height: 13.2vw;
+    top: 14vw;
+    left: 2.6vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      font-size: 2vw;
+      width: 21.4vw;
+    }
+
+    .b {
+      margin-left: 10.9vw;
+    }
+
+    .v {
+      margin-left: 7vw;
+    }
+
+    .books {
+      width: 25.1vw;
+      height: 12.7vw;
+
+      .t {
+        font-size: 1.1vw;
+        font-weight: bold;
+        margin-top: 0.6vw;
+        margin-bottom: 2.6vw;
+      }
+
+      .r {
+        display: flex;
+        margin-bottom: 1.3vw;
+
+        img {
+          width: 1.4vw;
+          height: 1.4vw;
+          margin-right: 1vw;
+          margin-top: -0.1vw;
+        }
+
+        p {
+          font-size: 0.9vw;
+          line-height: 130%;
+        }
+      }
+    }
+  }
+
+  .fm {
+    top: 20.8vw;
+    background-color: var(--red);
+
+    .nazv_t {
+      width: 80vw;
+    }
+
+    .n_t {
+      .but {
+        color: var(--red);
+      }
+    }
+  }
+}
+
+// module mobile 
+@media screen and (max-width : 440px) {
+  body.monetization {
+    .body {
+      padding: 12.5vw 5vw 10vw 5vw;
+
+      .menu {
+        width: 89vw;
+
+        .logos {
+          width: 27vw;
+          height: 7.2vw;
+        }
+
+        .links {
+          display: none;
+        }
+
+        .search {
+          position: absolute;
+          width: 90vw;
+          height: 9vw;
+          top: 7.5vw;
+          border-radius: 4vw;
+
+          .searchbtn {
+            img {
+              height: 3vw;
+              width: 3vw;
+              margin-left: 4vw;
+            }
+
+            p {
+              font-size: 3.3vw;
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 0.5vw;
+            }
+          }
+        }
+
+        #t_menu {
+          width: 6vw;
+          display: block;
+          width: 6.4vw;
+          height: 4.6vw;
+          background: url(./images/t_menu.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+
+          &:hover {
+            background: url(./images/t_menu_h.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            transition: 0.2s;
+          }
+
+        }
+      }
+
+      .rec {
+        margin-top: 28.8vw;
+        width: 90vw;
+        height: 145vw;
+        background: url(./images/index/c_5.png);
+        background-size: cover;
+      }
+
+      .chank {
+        font-size: 2.7vw;
+        top: -152vw;
+      }
+
+      .text {
+        top: 8vw;
+        width: 90vw;
+        flex-wrap: wrap;
+
+        .chap {
+          font-size: 5vw;
+          width: 24vw;
+        }
+
+        .name {
+          width: 61vw;
+          margin-left: 28vw;
+          margin-top: -4.8vw;
+
+          .t_info {
+            display: none;
+          }
+
+          .t_but {
+            margin-top: 55vw;
+            width: 45vw;
+
+            .but_m {
+              height: 7.5vw;
+              width: 36.1vw;
+              border-radius: 4vw;
+              padding: 2.4vw 7vw;
+
+              p {
+                font-size: 2.7vw;
+                width: 30vw;
+              }
+            }
+
+            .but_share {
+              height: 7.5vw;
+              width: 7.5vw;
+            }
+          }
+
+          .title {
+            font-size: 5vw;
+          }
+        }
+
+        .opis {
+          font-size: 2.8vw;
+          width: 57.7vw;
+          margin-left: 28vw;
+          margin-top: 4vw;
+        }
+      }
+
+      .sod {
+        top: 85vw;
+        font-size: 5vw;
+      }
+
+      .top {
+        top: 89vw;
+
+        .t {
+          width: 90vw;
+          height: 51.1vw;
+          margin-bottom: 4vw;
+
+          &:nth-of-type(4),
+          &:nth-of-type(6) {
+            margin-bottom: 8vw;
+          }
+
+          .cov,
+          .cov1 {
+            height: 26.1vw;
+          }
+
+          .text_op {
+            height: 25vw;
+            padding: 6vw;
+
+            .naz {
+              font-size: 4.4vw;
+              margin-bottom: 3vw;
+            }
+
+            .tag {
+              height: 6.4vw;
+              width: 41vw;
+              border-radius: 3vw;
+              padding: 2vw 5vw 2vw 5vw;
+              margin-left: -0.2vw;
+              font-size: 2.5vw;
+            }
+          }
+        }
+      }
+    }
+
+    .useful {
+      margin-left: 2.2vw;
+      margin-top: 84vw;
+      flex-direction: column;
+
+      .title {
+        font-size: 4.4vw;
+        width: 110vw;
+      }
+
+      .books {
+        margin-left: 0.2vw;
+        width: 90vw;
+
+        .t {
+          font-size: 2.7vw;
+        }
+
+        .r {
+          margin-left: 28vw;
+          margin-bottom: 2.5vw;
+
+          img {
+            height: 5vw;
+            width: 5vw;
+            margin-right: 2.2vw;
+          }
+
+          p {
+            font-size: 2.7vw;
+            margin-top: 0.7vw;
+          }
+        }
+      }
+
+      .b {
+        margin-top: 6vw;
+
+        .r1 {
+          margin-top: -6vw;
+        }
+      }
+
+      .v {
+        margin-top: 17vw;
+
+        .t {
+          margin-top: 3vw;
+        }
+
+        .r2 {
+          margin-top: -6vw;
+        }
+      }
+    }
+
+    .footer {
+      top: 90vw;
+      height: 103.8vw;
+
+      .n_t {
+        .next {
+          margin-top: 20vw;
+          margin-bottom: 2vw;
+          font-size: 2.7vw;
+        }
+
+        .nazv_t {
+          font-size: 7.5vw;
+          line-height: 98%;
+          width: 90vw;
+        }
+
+        a {
+          .but {
+            height: 6.4vw;
+            width: 33vw;
+            border-radius: 3vw;
+            font-size: 2.5vw;
+            padding: 2vw 6vw;
+            margin-top: 4vw;
+          }
+        }
+      }
+
+      .dop_t {
+        margin-top: 60vw;
+        width: 87vw;
+
+        p {
+          font-size: 2.2vw;
+        }
+
+        .p_2 {
+          display: none;
+        }
+      }
+    }
+  }
+}

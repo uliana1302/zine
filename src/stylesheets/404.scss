@@ -1,0 +1,150 @@
+body.erro {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  .body {
+    padding: 2.3vw 2.6vw 7vw 2.6vw;
+
+    .d {
+      margin-top: 20vh;
+      width: 100vw;
+      height: 48vh;
+      display: flex;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .er {
+        width: 32vw;
+        height: 32vw;
+      }
+
+      a {
+        #but_t {
+          width: 11.9vw;
+          height: 2.2vw;
+          background-color: var(--blue);
+          border-radius: 2vw;
+          margin-top: 2vw;
+
+          &:hover {
+            background-color: var(--hover_blue);
+            transition: 0.2s;
+          }
+
+          p {
+            color: var(--white);
+            width: 14vw;
+            font-size: 0.8vw;
+            padding: 0.8vw 2vw 0.8vw 2vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 441px) and (max-width: 1025px) {
+  body.erro {
+    .body {
+      .d {
+        height: 60vh;
+
+        .er {
+          width: 60vw;
+          height: 60vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 440px) {
+  body.erro {
+    padding: 12.5vw 5vw 10vw 5vw;
+
+    .body {
+
+      .menu {
+        width: 89vw;
+
+        .logos {
+          width: 27vw;
+          height: 7.2vw;
+        }
+
+        .links {
+          display: none;
+        }
+
+        .search {
+          position: absolute;
+          width: 90vw;
+          height: 9vw;
+          top: 7.5vw;
+          border-radius: 4vw;
+
+          .searchbtn {
+            img {
+              height: 3vw;
+              width: 3vw;
+              margin-left: 4vw;
+            }
+
+            p {
+              font-size: 3.3vw;
+              width: 40vw;
+              margin-left: 2vw;
+              margin-top: 0.5vw;
+            }
+          }
+        }
+
+        #t_menu {
+          width: 6vw;
+          display: block;
+          width: 6.4vw;
+          height: 4.6vw;
+          background: url(./images/t_menu.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+
+          &:hover {
+            background: url(./images/t_menu_h.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            transition: 0.2s;
+          }
+
+        }
+      }
+
+      .d {
+        height: 60vh;
+        margin-left: -7vw;
+
+        .er {
+          width: 100vw;
+          height: 114vw;
+        }
+
+        a {
+          #but_t {
+            margin-top: 6vw;
+            height: 7.5vw;
+            width: 45vw;
+            border-radius: 4vw;
+            padding: 2vw 7vw;
+
+            p {
+              font-size: 2.7vw;
+              width: 50vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}

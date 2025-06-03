@@ -6,8 +6,26 @@
 @import 'stylesheets/about.scss';
 @import 'stylesheets/landing.scss';
 @import 'stylesheets/index.scss';
-@import 'stylesheets/module.scss';
 @import 'stylesheets/tools.scss';
 @import 'stylesheets/topic.scss';
+@import 'stylesheets/404.scss';
+
+@import 'stylesheets/module.scss';
+@import 'stylesheets/zines.scss';
+@import 'stylesheets/creation.scss';
+@import 'stylesheets/promotion.scss';
+@import 'stylesheets/monetization.scss';
+
+@import 'stylesheets/1_1.scss';
+@import 'stylesheets/1_2.scss';
+@import 'stylesheets/1_3.scss';
+@import 'stylesheets/2_1.scss';
+@import 'stylesheets/2_2.scss';
+@import 'stylesheets/3_1.scss';
+@import 'stylesheets/3_2.scss';
+@import 'stylesheets/4_1.scss';
+@import 'stylesheets/4_2.scss';
+@import 'stylesheets/5_1.scss';
+@import 'stylesheets/5_2.scss';
 
 @import 'stylesheets/adaptive.scss';

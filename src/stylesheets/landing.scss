@@ -130,7 +130,7 @@ body.landing {
 
     #blue {
       width: 105vw;
-      height: 81.5vw;
+      height: 78.5vw;
       background-color: var(--blue);
       position: absolute;
       top: 59vw;
@@ -140,7 +140,7 @@ body.landing {
     .num1 {
       position: relative;
       font-size: 4.5vw;
-      top: 68.2vw;
+      top: 64.2vw;
       left: 5.5vw;
       color: var(--white);
     }
@@ -150,7 +150,7 @@ body.landing {
       font-size: 4.5vw;
       width: 40.8vw;
       line-height: 95%;
-      top: 63.5vw;
+      top: 59.8vw;
       left: 15.3vw;
       color: var(--white);
     }
@@ -160,7 +160,7 @@ body.landing {
       font-size: 1.1vw;
       line-height: 135%;
       width: 31.8vw;
-      top: 65.5vw;
+      top: 62.5vw;
       left: 15.6vw;
       color: var(--white);
     }
@@ -168,14 +168,14 @@ body.landing {
     .nakl1 {
       position: relative;
       width: 29.8vw;
-      top: 49vw;
+      top: 45vw;
       left: 58.7vw;
     }
 
     .info1 {
       position: relative;
       width: 1.6vw;
-      top: 87vw;
+      top: 83vw;
       left: 15vw;
     }
 
@@ -184,27 +184,53 @@ body.landing {
       font-size: 0.9vw;
       line-height: 135%;
       width: 22.9vw;
-      top: 85.5vw;
+      top: 81.5vw;
       left: 19vw;
       color: var(--white);
     }
 
     .scr1 {
       position: relative;
-      top: 55.8vw;
+      top: 51.8vw;
+      left: 0;
       height: 33vw;
-      width: 100vw;
+      width: 100%;
+      background: url(./images/landing/scr1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
 
-      img {
-        height: 32vw;
-        width: 132.8vw;
+    .scr_p {
+      position: relative;
+      width: 100%;
+      top: 52.5vw;
+      left: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+
+      .scr_p1 {
+        font-size: 0.9vw;
+        color: var(--blue);
+      }
+
+      .scr_p2 {
+        font-size: 0.9vw;
+        color: var(--blue);
+        margin-left: 13.7vw;
+      }
+
+      .scr_p3 {
+        font-size: 0.9vw;
+        color: var(--blue);
+        margin-left: 36.4vw;
       }
     }
 
     .num2 {
       position: relative;
       font-size: 4.5vw;
-      top: 66.6vw;
+      top: 63.6vw;
       left: 4.5vw;
       color: var(--blue);
     }
@@ -214,7 +240,7 @@ body.landing {
       font-size: 4.5vw;
       width: 60vw;
       line-height: 95%;
-      top: 62vw;
+      top: 59.2vw;
       left: 15.4vw;
       color: var(--blue);
     }
@@ -224,32 +250,24 @@ body.landing {
       font-size: 1.1vw;
       line-height: 135%;
       width: 31.8vw;
-      top: 64vw;
+      top: 62vw;
       left: 15.6vw;
       color: var(--blue);
     }
 
     #yellow {
       width: 105vw;
-      height: 60vw;
+      height: 66vw;
       background-color: var(--yellow);
       position: relative;
-      top: 73.5vw;
+      top: 72.5vw;
       left: -3vw;
-    }
-
-    .head1,
-    .head2,
-    .op1,
-    .op2,
-    .soder {
-      display: none;
     }
 
     .num3 {
       position: relative;
       font-size: 4.5vw;
-      top: 22vw;
+      top: 16vw;
       left: 4.5vw;
       color: var(--white);
     }
@@ -259,22 +277,122 @@ body.landing {
       font-size: 4.5vw;
       width: 60vw;
       line-height: 95%;
-      top: 17.5vw;
+      top: 11.5vw;
       left: 15.4vw;
       color: var(--white);
     }
 
-    .soder1 {
-      width: 150vw;
+    .soder {
+      width: 32vw;
+      height: 40vw;
+      margin-top: 17vw;
+      margin-left: 13vw;
       position: relative;
-      top: 23vw;
-      left: -1vw;
+      background: url(./images/landing/soderz.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .head1 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -36.5vw;
+      left: 54vw;
+      color: var(--white);
+    }
+
+    .op1 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -38.5vw;
+      left: 66vw;
+      width: 25vw;
+      color: var(--white);
+    }
+
+    .mod1 {
+      position: relative;
+      font-size: 1.1vw;
+      top: -36.5vw;
+      left: 66vw;
+      color: var(--white);
+      line-height: 135%;
+    }
+
+    .but1 {
+      position: relative;
+      top: -34.5vw;
+      left: 66vw;
+      width: 12.9vw;
+      height: 2.2vw;
+      background-color: var(--white);
+      border-radius: 2vw;
+
+      &:hover {
+        opacity: 0.85;
+        transition: 0.2s;
+      }
+
+      p {
+        color: var(--yellow);
+        width: 14vw;
+        font-size: 0.8vw;
+        padding: 0.8vw 2vw 0.8vw 2vw;
+      }
+    }
+
+    .head2 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -29vw;
+      left: 54vw;
+      color: var(--white);
+    }
+
+    .op2 {
+      position: relative;
+      font-size: 1.85vw;
+      top: -30.9vw;
+      left: 66vw;
+      width: 25vw;
+      color: var(--white);
+    }
+
+    .mod2 {
+      position: relative;
+      font-size: 1.1vw;
+      top: -29vw;
+      left: 66vw;
+      color: var(--white);
+      line-height: 135%;
+    }
+
+    .but2 {
+      position: relative;
+      top: -27vw;
+      left: 66vw;
+      width: 12.9vw;
+      height: 2.2vw;
+      background-color: var(--white);
+      border-radius: 2vw;
+
+      &:hover {
+        opacity: 0.85;
+        transition: 0.2s;
+      }
+
+      p {
+        color: var(--yellow);
+        width: 14vw;
+        font-size: 0.8vw;
+        padding: 0.8vw 2vw 0.8vw 2vw;
+      }
     }
 
     .but_m {
       position: relative;
-      top: 39.5vw;
-      left: 15.5vw;
+      top: -4.5vw;
+      left: 15.4vw;
       width: 11.9vw;
       height: 2.2vw;
       background-color: var(--blue);
@@ -296,7 +414,7 @@ body.landing {
     .num4 {
       position: relative;
       font-size: 4.5vw;
-      top: 41.3vw;
+      top: -5vw;
       left: 4.5vw;
       color: var(--blue);
     }
@@ -306,7 +424,7 @@ body.landing {
       font-size: 4.5vw;
       width: 43vw;
       line-height: 95%;
-      top: 36.8vw;
+      top: -9.5vw;
       left: 15.4vw;
       color: var(--blue);
     }
@@ -316,7 +434,7 @@ body.landing {
       font-size: 1.1vw;
       line-height: 135%;
       width: 31.8vw;
-      top: 38.5vw;
+      top: -6.5vw;
       left: 15.6vw;
       color: var(--blue);
     }
@@ -324,14 +442,14 @@ body.landing {
     .img7 {
       position: relative;
       width: 29.6vw;
-      top: 26.7vw;
+      top: -19vw;
       left: 61vw;
     }
 
     .info2 {
       position: relative;
       width: 1.6vw;
-      top: 25.5vw;
+      top: -20.3vw;
       left: -14.5vw;
     }
 
@@ -340,7 +458,7 @@ body.landing {
       font-size: 0.9vw;
       line-height: 135%;
       width: 22.9vw;
-      top: 24.1vw;
+      top: -21.8vw;
       left: 18.9vw;
       color: var(--blue);
     }
@@ -348,7 +466,7 @@ body.landing {
   }
 
   .fm {
-    top: 24vw;
+    top: -17vw;
     position: relative;
     background-color: var(--green);
 

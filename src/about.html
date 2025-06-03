@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="images/png" href="./images/favicon.png">
+  <!-- Primary Meta Tags -->
+  <title>О проекте</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="О проекте" />
+  <meta name="description" content="Веб-учебник по развитию личного бренда через зины">
+  <script src="./javascript/menu.js"></script>
+  <script src="./javascript/search.js"></script>
+
+  <analytics></analytics>
+</head>
+
+<body class="about">
+
+  <div class="body">
+    <!-- Меню -->
+    <div class="menu">
+      <a href="index.html"><img class="logos" src="./images/logo.svg"></a>
+      <div class="links">
+        <a href="tutorial.html">Учебник</a>
+        <a href="tools.html">Инструменты</a>
+        <a href="about.html">О проекте</a>
+      </div>
+
+      <div class="search">
+        <button onclick="searchClick()" class="searchbtn">
+          <img src="images/search.svg">
+          <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Поиск по учебнику"></button>
+        <list></list>
+      </div>
+
+      <div class="dropdown">
+        <button onclick="menuClick()" class="dropbtn">
+          <div id="t_menu"></div>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <div class="c_links">
+            <a href=tutorial.html>Учебник</a>
+            <a href="tools.html">Инструменты</a>
+            <a href="about.html">О проекте</a>
+          </div>
+          <a class="tg" href="https://t.me/pro_zine">Telegram</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Баннер -->
+    <div class="banner">
+      <div class="rec">
+        <p class="header">Чуть поподробнее о&nbspпроекте</p>
+        <p class="age">2025</p>
+        <p class="descr">Наши авторы, истории создания, цели и миссия</p>
+      </div>
+    </div>
+
+    <!-- Текстовый блок -->
+    <div class="text text_1">
+      <p class="chap">prozine</p>
+      <div class="name">
+        <p class="title">Веб-учебник по&nbspсозданию зинов для&nbspтворческого бизнеса</p>
+        <div class="t_but">
+          <div class="t_info">
+            <img class="info_t" src="./images/index/info.svg">
+            <p>17 тем&nbsp&nbsp&nbsp&nbsp&nbsp&nbspСамостоятельное изучение</p>
+          </div>
+        </div>
+      </div>
+      <p class="opis">Pro Zine* — это онлайн-учебник, который учит творческих людей создавать уникальные зины для
+        продвижения личного бренда.
+        Мы предлагаем практическое руководство по созданию самодельных журналов, которые помогут вам выразить свою
+        индивидуальность и&nbspдонести до&nbspаудитории важные идеи.<br><br>В учебнике мы исследуем основы личного
+        брендинга,
+        самовыражения через зины, а&nbspтакже стратегии продвижения и&nbspмонетизации.
+        Материал подойдёт как для начинающих, так и для опытных авторов, готовых использовать зины для развития своего
+        бренда.<br><br>*Дипломный проект студентки hse art and design school Воробьёвой Ульяны под руководством Захара
+        Дня.</p>
+    </div>
+  </div>
+
+  <!-- Футер -->
+  <div class="footer fm">
+    <div class="n_t">
+      <p class="next">Следующий материал</p>
+      <p class="nazv_t">Развиваем личный бренд с prozine</p>
+      <a href="tutorial.html">
+        <div class="but">Перейти к учебнику</div>
+      </a>
+    </div>
+    <div class="dop_t">
+      <a href="https://hsedesign.ru/project/7a5ba4bbc7f245e8ac860988d9019273" target="_blank">
+        <p class="p_1">prozine '25</p>
+      </a>
+      <p class="p_2">Проект выполнен <a href="https://t.me/uvvorobyova" target="_blank">Воробьёвой Ульяной</a> под
+        кураторством <a href="https://t.me/dayglobal" target="_blank">Захара
+          Дня</a></p>
+      <a href="https://design.hse.ru/" target="_blank">
+        <p class="p_3">Школа дизайна НИУ ВШЭ</p>
+      </a>
+    </div>
+  </div>
+
+</body>
+
+</html>

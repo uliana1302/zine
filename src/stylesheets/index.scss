@@ -1,6 +1,6 @@
 body.index {
   width: 100vw;
-  height: 170ю5vw;
+  height: 170.5vw;
   overflow-x: hidden;
 
   .body {
@@ -172,6 +172,66 @@ body.index {
 
           &:hover {
             background: url("./images/index/c_1_h_s.png");
+            transition: 0.2s;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .cov2 {
+          width: 100%;
+          height: 10.2vw;
+          background: url("./images/index/c_2.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background: url("./images/index/c_2_h.png");
+            transition: 0.2s;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .cov3 {
+          width: 100%;
+          height: 10.2vw;
+          background: url("./images/index/c_3.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background: url("./images/index/c_3_h.png");
+            transition: 0.2s;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .cov5 {
+          width: 100%;
+          height: 10.2vw;
+          background: url("./images/index/c_5.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background: url("./images/index/c_5_h.png");
+            transition: 0.2s;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .cov4 {
+          width: 100%;
+          height: 10.2vw;
+          background: url("./images/index/c_4.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+
+          &:hover {
+            background: url("./images/index/c_4_h.png");
             transition: 0.2s;
             background-size: cover;
             background-repeat: no-repeat;

@@ -1,6 +1,6 @@
 body.tools {
   width: 100vw;
-  height: 209vw;
+  height: 208vw;
   overflow-x: hidden;
 
   .body {
@@ -93,6 +93,23 @@ body.tools {
             width: 25vw;
             display: flex;
 
+
+            .download {
+              width: 2.6vw;
+              height: 2.6vw;
+              display: block;
+              background: url(./images/tools/load.svg);
+              background-repeat: no-repeat;
+              background-size: contain;
+
+              &:hover {
+                background: url(./images/tools/load_h.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                transition: 0.2s;
+              }
+            }
+
             .tag {
               height: 2.6vw;
               border-radius: 1vw;
@@ -107,11 +124,11 @@ body.tools {
             }
 
             .l {
-              width: 18vw;
+              width: 19vw;
             }
 
             .m {
-              width: 18vw;
+              width: 17vw;
             }
           }
         }
@@ -122,7 +139,7 @@ body.tools {
 
 .fm {
   top: 1.3vw;
-  background-color: var(--yellow);
+  background-color: var(--green);
 
   .nazv_t {
     width: 80vw;
@@ -130,7 +147,7 @@ body.tools {
 
   .n_t {
     .but {
-      color: var(--yellow);
+      color: var(--green);
     }
   }
 }

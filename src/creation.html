@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="images/png" href="./images/favicon.png">
+  <!-- Primary Meta Tags -->
+  <title>Модуль 3. Создание зинов для бренда</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Модуль 3. Создание зинов для бренда" />
+  <meta name="description" content="Веб-учебник по развитию личного бренда через зины">
+  <script src="./javascript/menu.js"></script>
+  <script src="./javascript/search.js"></script>
+
+  <analytics></analytics>
+</head>
+
+<body class="creation">
+
+  <div class="body">
+    <!-- Меню -->
+    <div class="menu">
+      <a href="index.html"><img class="logos" src="./images/logo.svg"></a>
+      <div class="links">
+        <a href="tutorial.html">Учебник</a>
+        <a href="tools.html">Инструменты</a>
+        <a href="about.html">О проекте</a>
+      </div>
+
+      <div class="search">
+        <button onclick="searchClick()" class="searchbtn">
+          <img src="images/search.svg">
+          <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Поиск по учебнику"></button>
+        <list></list>
+      </div>
+
+      <div class="dropdown">
+        <button onclick="menuClick()" class="dropbtn">
+          <div id="t_menu"></div>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <div class="c_links">
+            <a href=tutorial.html>Учебник</a>
+            <a href="tools.html">Инструменты</a>
+            <a href="about.html">О проекте</a>
+          </div>
+          <a class="tg" href="https://t.me/pro_zine">Telegram</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Баннер -->
+    <div class="rec"></div>
+    <!-- <img class="rec" src="./images/module/cover.png"> -->
+
+    <p class="chank"><a href="tutorial.html">Учебник</a>&nbsp&nbsp&nbsp•&nbsp&nbsp&nbspСоздание зинов для бренда</p>
+
+    <!-- Текстовый блок -->
+    <div class="text text_1">
+      <p class="chap">Модуль 3</p>
+      <div class="name">
+        <p class="title">Создание зинов для&nbspбренда</p>
+        <div class="t_but">
+          <a href="./images/materials/5_учебник.pdf" download="prozine_creation.pdf">
+            <div class="but_m">
+              <p>Скачать модуль</p>
+            </div>
+          </a>
+          <a href="https://telegram.me/share/url?url=prozine.adc.ac/creation.html&text=Смотри, какой классный материал вышел у prozine!"
+            target="_blank">
+            <div class="but_share"></div>
+          </a>
+          <!-- <img class="but_share" src="./images/module/share.svg"> -->
+        </div>
+      </div>
+      <p class="opis">Мы&nbsp;уже разобрались, что такое личный бренд и&nbsp;зины, теперь пришло время применить
+        полученные знания
+        на&nbsp;практике и&nbsp;создать свой первый многостраничный зин.
+        <br><br>В&nbsp;этом модуле: научим основным приёмам сторителлинга, работе с&nbsp;графикой и&nbsp;типографикой
+        в&nbsp;зине,
+        а&nbsp;также покажем, как верстать и&nbsp;печатать книжные макеты.
+      </p>
+    </div>
+
+    <!-- Карточки -->
+    <p class="sod">Содержание</p>
+
+    <div class="top topic_b1">
+      <a href="./creation/storytelling.html">
+        <div class="t">
+          <div class="cov"></div>
+          <!-- <img class="cov" src="./images/module/c_1.png"> -->
+          <div class="text_op">
+            <p class="naz">3.1&nbsp&nbspСторителлинг</p>
+            <div class="tag coll">Партнёрский материал</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="./creation.html/fonts.html">
+        <div class="t t1">
+          <div class="cov1"></div>
+          <!-- <img class="cov" src="./images/module/c_2.png"> -->
+          <div class="text_op">
+            <p class="naz">3.2&nbsp&nbspТипографика</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Полезные материалы -->
+  <div class="useful">
+    <p class="title">Полезные материалы</p>
+    <div class="books b">
+      <p class="t">Книги и статьи</p>
+      <div class="r r1">
+        <img src="./images/module/1.png">
+        <p>«Show Your Work!» (Остин Клеон)</p>
+      </div>
+      <div class="r">
+        <img src="./images/module/2.png">
+        <p>«Типографика и вёрстка» (Эллен Люптон)</p>
+      </div>
+      <div class="r">
+        <img src="./images/module/3.png">
+        <p>«Как упаковать идею» (Юрий Ветров)</p>
+      </div>
+    </div>
+
+    <div class="books v">
+      <p class="t">Видео</p>
+      <div class="r r2">
+        <img src="./images/module/1.png">
+        <p>«Zines как инструмент самовыражения и&nbspкоммуникации» (Bang Bang Education)</p>
+      </div>
+      <div class="r">
+        <img src="./images/module/2.png">
+        <p>«Как мы сделали зин про продуктовый дизайн» (Сапёр и Клевер, подкаст)</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Футер -->
+  <div class="footer fm">
+    <div class="n_t">
+      <p class="next">Следующий материал</p>
+      <p class="nazv_t">Сторителлинг</p>
+      <a href="./creation/storytelling.html">
+        <div class="but">Перейти к теме</div>
+      </a>
+    </div>
+    <div class="dop_t">
+      <a href="https://hsedesign.ru/project/7a5ba4bbc7f245e8ac860988d9019273" target="_blank">
+        <p class="p_1">prozine '25</p>
+      </a>
+      <p class="p_2">Проект выполнен <a href="https://t.me/uvvorobyova" target="_blank">Воробьёвой Ульяной</a> под
+        кураторством <a href="https://t.me/dayglobal" target="_blank">Захара
+          Дня</a></p>
+      <a href="https://design.hse.ru/" target="_blank">
+        <p class="p_3">Школа дизайна НИУ ВШЭ</p>
+      </a>
+    </div>
+  </div>
+
+</body>
+
+</html>
