@@ -92,6 +92,7 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
       chunks: ['index', 'menu']
+<<<<<<< HEAD
     }),
 
     // Error
@@ -110,12 +111,15 @@ module.exports = {
       template: './src/tutorial.html',
       filename: './tutorial.html',
       chunks: ['index', 'menu', 'search']
+=======
+>>>>>>> 16397851d6ed6e113bafdf35055da4f7219bd2da
     }),
 
-    // About page
+    // Tutorial page
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
+<<<<<<< HEAD
       template: './src/about.html',
       filename: './about.html',
       chunks: ['index', 'menu', 'search']
@@ -154,6 +158,19 @@ module.exports = {
       scriptLoading: 'blocking',
       template: './src/promotion.html',
       filename: './promotion.html',
+=======
+      template: './src/tutorial.html',
+      filename: './tutorial.html',
+      chunks: ['index', 'menu', 'search']
+    }),
+
+    // About page
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/about.html',
+      filename: './about.html',
+>>>>>>> 16397851d6ed6e113bafdf35055da4f7219bd2da
       chunks: ['index', 'menu', 'search']
     }),
 
@@ -161,8 +178,13 @@ module.exports = {
     new HtmlWebpackPlugin({
       hash: true,
       scriptLoading: 'blocking',
+<<<<<<< HEAD
       template: './src/monetization.html',
       filename: './monetization.html',
+=======
+      template: './src/module.html',
+      filename: './module.html',
+>>>>>>> 16397851d6ed6e113bafdf35055da4f7219bd2da
       chunks: ['index', 'menu', 'search']
     }),
 
@@ -182,6 +204,7 @@ module.exports = {
       template: './src/brand/topic.html',
       filename: './brand/topic.html',
       chunks: ['index', 'menu', 'search']
+<<<<<<< HEAD
     }),
 
     // 1.1
@@ -281,6 +304,8 @@ module.exports = {
       template: './src/monetization/identity.html',
       filename: './monetization/identity.html',
       chunks: ['index', 'menu', 'search']
+=======
+>>>>>>> 16397851d6ed6e113bafdf35055da4f7219bd2da
     }),
 
     // Partials
